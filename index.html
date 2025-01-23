@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Samuel Tusick</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
 </head>
@@ -13,7 +13,7 @@
     <div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contacts</a></li>
         </ul>
@@ -29,7 +29,7 @@
         </div>
         <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
         </div>
@@ -37,7 +37,7 @@
 </nav>
 <section id="profile">
     <div class="section_pic-container">
-        <img src="./assets/profile-pic.jpg" alt="Samuel Tusick Profile Picture">
+        <img src="./assets/profile-pic.jpg" alt="Samuel Tusick Profile Picture" class="profile-pic">
     </div>
     <div class="section_text">
         <p class="section_text_p1">Hello I'm</p>
@@ -64,30 +64,93 @@
     <h1 class="title">About Me</h1>
     <div class="section-container">
         <div class="section_pic-container">
-            <img src="./assets/about-pic.png" alt="Profile Picture" class="about pic">
+            <img src="./assets/profile-pic.jpg" alt="Profile Picture" class="about-pic">
         </div>
         <div class="about-details-container">
             <div class="about-containers">
                 <div class="details-container">
                     <img src="./assets/experience.png" alt="Experience Icon" class="icon">
-                    <h3>Experience</h3>
-                    <p>Ambridge Area Senior High School <br>&emsp;Tech Intern – Tech Department</p>
+                    <h2>Experience</h2>
+                    <p>
+                        <b>Princeton University</b> <br>
+                        <i>Research Assistant – Computational Usage in Different Fields of Study</i>
+                    </p>
                     <p><br></p>
-                    <p>Princeton University <br>&emsp;Research Assistant – Computational Usage in Different Fields of Study</p>
+                    <p>
+                        <b>Ambridge Area Senior High School</b> <br>
+                        <i>Tech Intern – Tech Department</i>
+                    </p>
                 </div>
                 <div class=" details-container">
                     <img src="./assets/education.png" alt="Education Icon" class="icon">
-                    <h3>Education</h3>
-                    <p>Florida Gulf Coast University <br>Bachelor of Science in Software Engineering</p>
+                    <h2>Education</h2>
+                    <p>
+                        <b>Florida Gulf Coast University</b> <br>
+                        <i>Bachelor of Science in Software Engineering</i>
+                    </p>
                 </div>
             </div>
             <div class="text-container">
-                <p>Enter text here</p>
+                <p>Enter text here This is me just testing the spacing. 
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing.
+                    This is me just testing the spacing. </p>
             </div>
         </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+    <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#skills'">
 
+</section>
+<section id="skills">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skill-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="skill-sub-title">Programming Languages</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/cplusplus.png" alt="C++ Icon" class="icon">
+                    </article>
+                    <article>
+                        <img src="./assets/c.png" alt="C Icon" class="icon">
+                    </article>
+                    <article>
+                        <img src="./assets/html.png" alt="HTML Icon" class="icon">
+                    </article>
+                    <article>
+                        <img src="./assets/css.png" alt="CSS Icon" class="icon">
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="skill-sub-title">Tools and Technology</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/vscode.png" alt="VS Code Icon" class="icon">
+                    </article>
+                    <article>
+                        <img src="./assets/CLion.png" alt="CLion Icon" class="icon">
+                    </article>
+                    <article>
+                        <img src="./assets/github.png" alt="GitHub Icon" class="icon">
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
   <script src="script.js"></script>
 </body>
