@@ -10,15 +10,20 @@
 }
 
 body{
-    font-family: "Poppins", serif;    
+    font-family: "Poppins", serif;  
+    background-color: rgb(27,38,44);  
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+h2 {
+    color: rgb(50,130,184);
+}
+
 p {
-    color: black;
+    color: rgb(187,225,250);
 }
 
 /* Transitions */ 
@@ -46,20 +51,21 @@ nav {
 }
 
 a {
-    color: black;
+    color: rgb(187,225,250);
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: rgb(50,130,184);
 }
 
 a:hover {
-    color:grey;
+    color:rgb(15,76,117);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: grey;
+    text-decoration-color: rgb(15,76,117);
 }
 
 .logo {
     font-size: 2rem;
+    color: rgb(50,130,184);
 }
 
 .logo:hover {
@@ -89,7 +95,7 @@ a:hover {
 .hamburger-icon span{
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: rgb(187,225,250);
     transition: all 0.3 ease-in-out;
 }
 
@@ -97,7 +103,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: white;
+    background-color: rgb(27,38,44);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -109,7 +115,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: rgb(187,225,250);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -196,6 +202,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    color: rgb(50,130,184);
 }
 
 #socials-container {
@@ -203,6 +210,7 @@ section {
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
+    background-color: rgba(187, 225, 250);
 }
 
 /* Icons */
@@ -229,28 +237,30 @@ section {
 }
 
 .btn-color-1, .btn-color-2 {
-    border: rgb(53,53,53) 0.1rem solid;
+    border: rgb(15,76,117) 0.1rem solid;
+    color: rgb(187,225,250);
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
     cursor: pointer;
 }
 
-.btn-color-1, .btn-color-2:hover {
-    background: rgb(53,53,53);
-    color: white;
+.btn-color-2:hover {
+    background: rgb(15,76,117);
+    color: rgb(187,225,250);
 }
 
 .btn-color-1:hover {
-    background: black;
+    background: rgb(15,76,117);
+    border: white 0.1rem solid;
 }
 
-.btn-color-2 {
+.btn-color-2, .btn-color-1 {
     background: none;
 }
 
 .btn-color-2:hover {
-    border: rgb(255,255,255) 0.1rem solid;
+    border: white 0.1rem solid;
 }
 
 .btn-container {
@@ -292,10 +302,10 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: rgb(27,38,44);
     border-radius: 2rem;
-    border: rgb(53,53,53) 0.1rem solid;
-    border-color: rgb(163,163,163);
+    border:rgb(15,76,117) 0.1rem solid;
+    border-color: rgb(15,76,117); 
     text-align: center;
 }
 
@@ -330,13 +340,18 @@ section {
 
 }
 
-.article-container {
+.article-container:has(:only-child) {
    display: flex;
    text-align: initial;
    flex-wrap: wrap; 
    flex-direction: row;
    gap: 2.5rem;
-   justify-content: space-around;
+   justify-content: center;
+}
+
+.article-container:has(:only-child) > * {
+    width: auto; 
+    max-width: 50%; 
 }
 
 article {
@@ -350,6 +365,15 @@ article .icon {
     cursor: default;
 }
 
+.skill-icon {
+    transition: 0.3s ease-in-out;
+}
+
+.skill-icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 15px  rgba(0,134,212,0.8));
+}
+
 /* Projects */
 
 #projects {
@@ -357,8 +381,8 @@ article .icon {
 }
 
 .color-container {
-    border-color: rgb(163,163,163);
-    background: rgb(250,250,250);
+    border-color: rgb(27,38,44);
+    background: rgb(27,38,44);
 }
 
 .project-img {
@@ -369,12 +393,12 @@ article .icon {
 
 .project-title {
     margin: 1rem;
-    color: black;
+    color: rgb(50,130,184);
 }
 
 .project-btn {
-    color: black;
-    border-color: rgb(163,163,163);
+    color: rgb(187,225,250);
+    border-color: rgb(15,76,117);
 }
 
 /* Contact */
@@ -390,9 +414,9 @@ article .icon {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53,53,53) 0.1rem solid;
-    border-color: rgb(163,163,163);
-    background: rgb(250,250,250);
+    border: rgb(15,76,117) 0.1rem solid;
+    border-color: rgb(15,76,117);
+    background: rgb(27,38,44);
     margin: 2rem auto;
     padding: 0.5rem;
 }
