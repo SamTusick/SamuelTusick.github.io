@@ -26,6 +26,14 @@ p {
     color: rgb(187,225,250);
 }
 
+/* Home */
+
+#home {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
 /* Transitions */ 
 
 a, .btn {
@@ -274,9 +282,9 @@ section {
 }
 
 .about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    gap: 1rem;
+    /*margin-bottom: 1rem;*/
+    margin-top: 1rem;
 }
 
 .about-details-container {
@@ -299,6 +307,10 @@ section {
     bottom: 2.5rem;
 }
 
+/*.about-arrow {
+    bottom:0rem;
+}*/
+
 .details-container {
     padding: 1.5rem;
     flex: 1;
@@ -318,6 +330,10 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.text-container {
+    text-align: center;
 }
 
 /* Skills */ 
@@ -366,12 +382,37 @@ article .icon {
 }
 
 .skill-icon {
+    height: 3rem;
     transition: 0.3s ease-in-out;
 }
 
-.skill-icon:hover {
+.cplusplus-icon:hover {
     transform: scale(1.2);
     filter: drop-shadow(0 0 15px  rgba(0,134,212,0.8));
+}
+.c-icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 15px  rgba(92,107,192,0.8));
+}
+.html-icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 15px  rgba(230,81,0,0.8));
+}
+.css-icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 15px  rgba(2,119,189,0.8));
+}
+.vs-icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 15px  rgba(2,119,189,0.8));
+}
+.clion-icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 15px  rgba(34,215,137,0.8));
+}
+.git-icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 15px  rgba(244,81,30,0.8));
 }
 
 /* Projects */

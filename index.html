@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuel Tusick</title>
+    <nav id="home"></nav>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
 </head>
@@ -45,7 +46,7 @@
         <h1 class="title">Samuel Tusick</h1>
         <p class="section_text_p2">Aspiring Software Engineer</p>
         <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('./assets/NOT_FINISHED_SamTusick_Resume.docx')">
+            <button class="btn btn-color-2" onclick="window.open('./assets/Samuel_Tusick_SoftwareEngineer_Resume.docx')">
                 Download Resume
             </button>
             <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -54,15 +55,25 @@
         </div>
         <div id="social-container">
             <img src="./assets/linkedin.png" alt="Linkedin profile" class="icon"
-             onclick="location.href='https://www.linkedin.com/in/samuel-tusick'">
+            onclick="window.open('https://www.linkedin.com/in/samuel-tusick', '_blank')">
+
             <img src="./assets/github.png" alt="GitHub profile" class="icon"
-             onclick="location.href='https://github.com/SamTusick'">
+             onclick="window.open('https://github.com/SamTusick', '_blank')">
         </div>
     </div>
 </section>
 <section id="about">
     <p class="section_text_p1">Get to Know More</p>
-    <h1 class="title">About Me</h1>
+    <h1 class="title">About Me</h1> <br>
+    <div class="text-container">
+        <p>I'm a software engineering student at Florida Gulf Coast University, originally from Pittsburgh, 
+            Pennsylvania, with a strong focus on backend development, where I enjoy solving complex problems and 
+            optimizing performance. While my main interest lies in backend technologies, I have an interest
+            in web development and enjoy working on full-stack projects. Currently, I'm proficient in
+            C++, C, HTML, and CSS, while expanding my skills in Python and JavaScript. My goal is to 
+            build innovative projects and solutions that make an impact.
+        </p>
+    </div>
     <div class="section-container">
         <div class="about-details-container">
             <div class="about-containers">
@@ -89,17 +100,10 @@
                     </p>
                 </div>
             </div>
-            <div class="text-container">
-                <p>I'm a software engineering student at Florida Gulf Coast University, originally from Pittsburgh, Pennsylvania, with a passion for backend development.
-                    I thrive on problem-solving and enjoy tackling complex challenges through efficient and adaptable code.
-                    Currently, I'm proficient in C++, C, HTML, and CSS, while expanding my skills in Python.
-                    My goal is to build innovative solutions that make an impact.
-                </p>
-            </div>
         </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow Icon" 
-    class="icon arrow" onclick="location.href='./#skills'">
+    class="icon arrow about-arrow" onclick="location.href='./#skills'">
 
 </section>
 <section id="skills">
@@ -111,16 +115,16 @@
                 <h2 class="skill-sub-title">Programming Languages</h2>
                 <div class="article-container">
                     <article>
-                        <img src="./assets/cplusplus.png" alt="C++ Icon" class=" skill-icon">
+                        <img src="./assets/cplusplus.png" alt="C++ Icon" class= "cplusplus-icon skill-icon">
                     </article>
                     <article>
-                        <img src="./assets/c.png" alt="C Icon" class="icon">
+                        <img src="./assets/c.png" alt="C Icon" class="skill-icon c-icon">
                     </article>
                     <article>
-                        <img src="./assets/html.png" alt="HTML Icon" class="icon">
+                        <img src="./assets/html.png" alt="HTML Icon" class="html-icon skill-icon">
                     </article>
                     <article>
-                        <img src="./assets/css.png" alt="CSS Icon" class="icon">
+                        <img src="./assets/css.png" alt="CSS Icon" class="skill-icon css-icon">
                     </article>
                 </div>
             </div>
@@ -128,13 +132,13 @@
                 <h2 class="skill-sub-title">Tools and Technology</h2>
                 <div class="article-container">
                     <article>
-                        <img src="./assets/vscode.png" alt="VS Code Icon" class="icon">
+                        <img src="./assets/vscode.png" alt="VS Code Icon" class="skill-icon vs-icon">
                     </article>
                     <article>
-                        <img src="./assets/CLion.png" alt="CLion Icon" class="icon">
+                        <img src="./assets/CLion.png" alt="CLion Icon" class="skill-icon clion-icon">
                     </article>
                     <article>
-                        <img src="./assets/git.png" alt="Git Icon" class="icon">
+                        <img src="./assets/git.png" alt="Git Icon" class="skill-icon git-icon">
                     </article>
                 </div>
             </div>
@@ -152,17 +156,17 @@
        <div class="details-container color-container">   <!--Copy&Paste Here To Add Projects-->
  
         <div class="article-container">
-            <img src="assets/project-1.png" alt="Project 1" class="project-img">
+            <img src="assets/web-scraping.png" alt="web-scraping project" class="project-img">
         </div>
         <h2 class="skill-sub-title project-title">Web Scraping Project</h2>
         <p>Currently in Progress</p><br>
         <div class="btn-container">
             <button class="btn btn-color-2 project-btn" 
-            onclick="location.href='https://github.com/SamTusick'">  <!-- Change Pic & Link for Actual Project -->
+            onclick="window.open('https://github.com/SamTusick', '_blank')">  <!-- Change Pic & Link for Actual Project -->
          GitHub
         </button>
             <button class="btn btn-color-2 project-btn" 
-            onclick="location.href='https://github.com/SamTusick'">   <!-- Change Link & Live Demo If One Is Needed -->
+            onclick="window.open('https://github.com/SamTusick', '_blank')">   <!-- Change Link & Live Demo If One Is Needed -->
         Live Demo
         </button>
         </div>
@@ -210,11 +214,11 @@
     <div class="contact-info-upper-container">
         <div class="contact-info-container">
             <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
-            <p><a href="mailto:samtusick@outlook.com">samtusick@outlook.com</a></p>
+            <p><a href="mailto:samtusick@outlook.com" >samtusick@outlook.com</a></p>
         </div>
         <div class="contact-info-container">
             <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
-            <p><a href="https://www.linkedin.com/in/samuel-tusick">LinkedIn</a></p>
+            <p><a href="https://www.linkedin.com/in/samuel-tusick" target="_blank">LinkedIn</a></p>
         </div>
     </div>
 </section>
@@ -222,6 +226,7 @@
     <nav>
         <div>
             <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
