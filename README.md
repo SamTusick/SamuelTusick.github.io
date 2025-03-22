@@ -15,7 +15,7 @@ This is my portfolio website, used to showcase my skills and projects, as well a
 - **Contact Section** - Includes contact info and links
 
 ## 📌 Future Implementions
-- **Projects** - Adding more projects and keeping up-to-date
+- **Projects** - Adding more projects and keeping up-to-date on current projects
 - **More visual features** - Adding more interactive and visually appealing features to enhance user experience
 
 ## 📫 Contact Me
