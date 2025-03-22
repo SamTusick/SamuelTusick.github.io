@@ -1,7 +1,7 @@
 # 🌐 My Personal Portfolio Website  
 This is my portfolio website, used to showcase my skills and projects, as well as a place where I can update my current projects. This site was built using HTML, CSS, and a little JavaScript, and follows a single-page layout.
 
-# Check it out: [Portfolio Website](https://samtusick.github.io/SamuelTusick.github.io)
+### Check it out: [Portfolio Website](https://samtusick.github.io/SamuelTusick.github.io)
 
 ## 🔧 Technologies Used
 - **HTML**
@@ -14,7 +14,7 @@ This is my portfolio website, used to showcase my skills and projects, as well a
 - **Project Showcase** - Displays projects with description and links
 - **Contact Section** - Includes contact info and links
 
-** 📌 Future Implementions
+## 📌 Future Implementions
 - **Projects** - Adding more projects and keeping up-to-date
 - **More visual features** - Adding more interactive and visually appealing features to enhance user experience
 
