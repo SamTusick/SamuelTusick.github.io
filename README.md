@@ -18,7 +18,7 @@ This is my portfolio website, used to showcase my skills and projects, as well a
 - **Projects** - Adding more projects and keeping up-to-date
 - **More visual features** - Adding more interactive and visually appealing features to enhance user experience
 
-## 📫 Contact Me**
+## 📫 Contact Me
 - **Email: [samtusick@outlook.com](mailto:samtusick@outlook.com)**
 - **LinkedIn: [www.linkedin.com/in/samuel-tusick](https://www.linkedin.com/in/samuel-tusick)**
 - **GitHub: [github.com/SamTusick](https://github.com/SamTusick)**
