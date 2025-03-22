@@ -24,5 +24,6 @@ This is my portfolio website, used to showcase my skills and projects, as well a
 - **GitHub: [github.com/SamTusick](https://github.com/SamTusick)**
 
 
+*Learning and testing Scorecard for Computer Security Course:*
 
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/SamTusick/SamuelTusick.github.io/badge)](https://securityscorecards.dev/viewer/?uri=github.com/SamTusick/SamuelTusick.github.io)
